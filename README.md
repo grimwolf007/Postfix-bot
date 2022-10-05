@@ -6,14 +6,15 @@
  - [x] Find all carriers for phone numbers
  - [x] Convert phone numbers to email addresses
 ### Init
- - [x] Setup init script
- - [ ] Setup Postfix Server as mail server (docker - postfixadmin?)
- - [ ] Added google smtp https://medium.com/yavar/send-mail-using-postfix-server-bbb08331d39d
+ - [x] Setup ssmtp
+ - [ ] Setup script to blast all devices
 ### Cronjob
  - [ ] Send mass email every 15 sec 
 ### Test
- - [ ] Can I email my phone number
+ - [x] Can I email my phone number
  - [ ] Does the cronjob work
+ - [ ] Does it work after restart
+
 ### Cleanup and submit
  - [ ] Remove ssh-keys
  - [ ] Remove hedgedoc
